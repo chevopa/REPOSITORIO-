@@ -5,7 +5,7 @@ baseRectangulo=input(" Ingrese la longitud de la base : ")
 print(" Altura del rectangulo ")
 alturaRectangulo=input(" Ingrese la altura : ")
 
-print("Area del rectangulo")
+#AREA DEL RECTANGULO
 areaRenctangulo=(int(baseRectangulo)*int(alturaRectangulo))
 
 print("  Base del triangulo ")
@@ -14,7 +14,7 @@ baseTriangulo=input(" Ingrese la longitud de la base : ")
 print(" Altura del triangulo ")
 alturaTriangulo=input(" Ingrese la altura : ")
 
-print("Area del rectangulo")
+#AREA DEL TRIANGULO
 areaTriangulo=(int(baseTriangulo)*int(alturaRectangulo)/2)
 
 

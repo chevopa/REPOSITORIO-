@@ -1,7 +1,14 @@
 print("Litros de leche producidos en un dia")
 litros_leche = input(" digite la cantidad de leche: ")
 
-print("Conversion de litros a galones")
+#CONVERSION DE LITROS A GOLES
 conversion = int(litros_leche)*float(3.785)
 
-print(f' la cantidad de leche en ganoles es de {conversion}')
+print("Valor de cada galon de leche")
+valor = input("Digite el valor: ")
+
+print(" Pago del producido en el dia ")
+pago = int(valor) * int(conversion)
+
+print(f'El pago que resivio el productor por el dia producido es {pago}')
+
