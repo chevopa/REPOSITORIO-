@@ -1,24 +1,15 @@
-# punto 1
-print("  Base del rectangulo ")
-baseRectangulo=input(" Ingrese la longitud de la base : ")
+print("AREA RECTANGULO")
+baseRectangulo = int(input(" Ingrese la longitud de la base : "))
+alturaRectangulo = int(input(" Ingrese la altura : "))
+area_rectangulo = int(baseRectangulo)*int(alturaRectangulo)
+print(f'la area del rectangulo ese de {area_rectangulo} mt')
 
-print(" Altura del rectangulo ")
-alturaRectangulo=input(" Ingrese la altura : ")
+print("AREA TRIANGULO")
+baseTriangulo = int(input(" Ingrese la longitud de la base : "))
+alturaTriangulo = int(input(" Ingrese la altura : "))
+area_triangulo = baseTriangulo*alturaTriangulo/2
+print(f'la area del triangulo ese de {area_triangulo} mt')
 
-#AREA DEL RECTANGULO
-areaRenctangulo=(int(baseRectangulo)*int(alturaRectangulo))
-
-print("  Base del triangulo ")
-baseTriangulo=input(" Ingrese la longitud de la base : ")
-
-print(" Altura del triangulo ")
-alturaTriangulo=input(" Ingrese la altura : ")
-
-#AREA DEL TRIANGULO
-areaTriangulo=(int(baseTriangulo)*int(alturaRectangulo)/2)
-
-
-print("Area del terreno")
-Area=(areaTriangulo+areaRenctangulo)
-print(Area)
-
+print("AREA TERRENO")    
+area_terreno = area_triangulo + alturaRectangulo
+print(f'la area del terreno ese de {area_terreno} mt')
